@@ -5,8 +5,6 @@ We have a Client module which uses Service module and requires Entity module as 
 In its turn Service module uses Repository module.
 
 Client   <-   Service    <-    Repository  
-^             ^                ^  
-Entity        Entity           Entity
 
 To start the app- run MainClient class from Client module
 
